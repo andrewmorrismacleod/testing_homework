@@ -47,10 +47,10 @@ class FunctionsTest < MiniTest::Test
     assert_equal( 3, add_result )
   end
 
-  # def test_number_to_full_name__month_1()
-  #   result = number_to_full_month_name( 1 )
-  #   assert_equal( "January", result )
-  # end
+  def test_number_to_full_name__month_1()
+    result = number_to_full_month_name( 1 )
+    assert_equal( "January", result )
+  end
   #
   # def test_number_to_full_name__month_3()
   #   result = number_to_full_month_name( 3 )
