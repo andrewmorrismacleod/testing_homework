@@ -33,5 +33,9 @@ def add_string_as_number(string_1, string_2)
 end
 
 def number_to_full_month_name(number)
-Date::MONTHNAMES[number]
+  return Date::MONTHNAMES[number]
+end
+
+def number_to_short_month_name(number)
+  return Date::ABBR_MONTHNAMES[number]
 end
