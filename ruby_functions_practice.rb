@@ -1,4 +1,5 @@
 require('date')
+#require('math')
 
 def return_10
   return 10
@@ -42,4 +43,9 @@ end
 
 def cube_volume(side_length)
   return side_length**3
+end
+
+def sphere_volume(radius)
+  volume = (4*3.14*radius**3)/3
+  return volume.round(2)
 end
