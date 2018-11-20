@@ -49,3 +49,8 @@ def sphere_volume(radius)
   volume = (4*3.14*radius**3)/3
   return volume.round(2)
 end
+
+def fahrenheit_to_celsius(fahrenheit)
+  celsius = (fahrenheit.to_f - 32.to_f) * (5.to_f/9.to_f)
+  return celsius.round(2)
+end
